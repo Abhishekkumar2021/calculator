@@ -10,6 +10,7 @@ for (let button of buttons) {
 		} else if (evt.target.innerText === "=") {
 			expression = expression.replace("^", "**");
 			expression = expression.replace("÷", "/");
+			expression = expression.replace("×", "*");
 			expression = eval(expression);
 			let num = parseFloat(expression);
 			num = num.toFixed(2);
