@@ -31,6 +31,7 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
+	align-content:center;
 }
 button {
 	background: rgb(249, 255, 255);
@@ -42,7 +43,7 @@ button {
 	width: 22%;
 	box-shadow: 10px 20px 45px rgba(0, 0, 0, 0.123);
 	height: 17%;
-
+	margin:10px 0;
 	color: rgb(54, 54, 54);
 }
 button:hover {
@@ -64,11 +65,12 @@ button:active {
 @media only screen and (max-width: 500px) {
 	button {
 		border-radius: 50%;
-		height: 16%;
+		height: 17%;
 		width: 22%;
 		background: white;
 		box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.123);
 		border: none;
+		margin:7px 0;
 	}
 	button:hover {
 		background: rgb(227, 230, 230);
@@ -77,5 +79,8 @@ button:active {
 	button:active {
 		box-shadow: 0 0 0 rgba(0, 0, 0, 0.123);
 		transition: 0.1s ease all;
+	}
+	.screen{
+		font-size:24px;
 	}
 }
