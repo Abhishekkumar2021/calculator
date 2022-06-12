@@ -63,9 +63,6 @@ button:active {
 }
 @media only screen and (max-width: 500px) {
 	button {
-		border-radius: 50%;
-		height: 15%;
-		width: 22%;
 		background: white;
 		box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.123);
 		border: none;
@@ -80,6 +77,6 @@ button:active {
 		transition: 0.1s ease all;
 	}
 	.screen{
-		font-size:24px;
+		font-size:26px;
 	}
 }
